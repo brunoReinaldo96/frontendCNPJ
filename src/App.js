@@ -21,8 +21,9 @@ function App() {
 
         try {
             const response = await axios.get(
-                `http://localhost:4000/cnpj/${cnpjLimpo}`
+                `https://cosultacnpj.onrender.com/cnpj/${cnpjLimpo}`
             );
+
             setDados(response.data);
         } catch (err) {
             console.error("Erro completo:", err);

@@ -55,10 +55,7 @@ function App() {
                     <p>
                         <strong>CNPJ:</strong> {dados.cnpj}
                     </p>
-                    <p>
-                        <strong>Inscrição Estadual:</strong>{" "}
-                        {dados.inscricao_estadual}
-                    </p>
+
                     <p>
                         <strong>Endereço:</strong> {dados.logradouro},{" "}
                         {dados.numero} - {dados.bairro}, {dados.municipio} -{" "}
